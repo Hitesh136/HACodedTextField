@@ -15,6 +15,7 @@
 		4A1304B7206A0A7600A16777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1304B6206A0A7600A16777 /* main.m */; };
 		4A1304C1206A0A7600A16777 /* HACodedTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1304C0206A0A7600A16777 /* HACodedTextFieldTests.m */; };
 		4A1304CC206A0A7600A16777 /* HACodedTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1304CB206A0A7600A16777 /* HACodedTextFieldUITests.m */; };
+		4AD95B92206B7D1600FEE4B6 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4AD95B91206B7D1600FEE4B6 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4A1304C7206A0A7600A16777 /* HACodedTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HACodedTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1304CB206A0A7600A16777 /* HACodedTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HACodedTextFieldUITests.m; sourceTree = "<group>"; };
 		4A1304CD206A0A7600A16777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD95B91206B7D1600FEE4B6 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		4A1304A6206A0A7600A16777 /* HACodedTextField */ = {
 			isa = PBXGroup;
 			children = (
+				4AD95B90206B7CAA00FEE4B6 /* Resources */,
 				4A1304A7206A0A7600A16777 /* AppDelegate.h */,
 				4A1304A8206A0A7600A16777 /* AppDelegate.m */,
 				4A1304AA206A0A7600A16777 /* ViewController.h */,
@@ -130,6 +133,14 @@
 				4A1304CD206A0A7600A16777 /* Info.plist */,
 			);
 			path = HACodedTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		4AD95B90206B7CAA00FEE4B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4AD95B91206B7D1600FEE4B6 /* demo.gif */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +251,7 @@
 				4A1304B4206A0A7600A16777 /* LaunchScreen.storyboard in Resources */,
 				4A1304B1206A0A7600A16777 /* Assets.xcassets in Resources */,
 				4A1304AF206A0A7600A16777 /* Main.storyboard in Resources */,
+				4AD95B92206B7D1600FEE4B6 /* demo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
